@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   $('#counter span').counterUp({
-      time: 1000
+      time: 2000
   });
 });
 
