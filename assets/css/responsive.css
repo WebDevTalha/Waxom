@@ -1,0 +1,266 @@
+
+/* Responsive Css */
+
+@media all and (max-width:960px) 
+{
+  .menu
+  {
+    display: none;
+  }
+  .menu-icons .menu-bar 
+  {
+    display: inline-block;
+    margin-left: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 3.5rem;
+    border-radius: .3rem;
+  }
+  .menu-icons .menu-bar:hover
+  {
+    border-color: var(--primary-clr);
+  }
+  .project-items 
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .recent-post-content 
+  {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
+  }
+  .single-recent-posts:last-child 
+  {
+    grid-column: span 2;
+    max-width: 50%;
+    margin: auto;
+  }
+  .single-partner img 
+  {
+    height: 9rem;
+  }
+  .header-top {
+    position: relative;
+  }
+  .menu {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 90%;
+    background-image: -webkit-linear-gradient( 85deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+    padding: 5rem;
+    margin: auto;
+    right: 0;
+    z-index: 11;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+}
+
+@media all and (min-width:960px) {
+  .menu {
+    display: block !important;
+  }
+}
+
+
+@media all and (max-width:855px) 
+{
+  .section-purchase-row 
+  {
+    justify-content: center;
+    text-align: center;
+  }
+  .single-content p 
+  {
+    margin-bottom: 1.5rem;
+  }
+  .device-area 
+  {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .device-image 
+  {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .device-content 
+  {
+    flex: 0 0 100%;
+    max-width: 85%;
+    order: -1;
+  }
+  .footer-top 
+  {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+
+}
+
+
+@media all and (max-width:740px) 
+{
+  .banner-content 
+  {
+    padding: 100px 0 200px 0;
+  }
+  h3 
+  {
+    font-size: 2.5rem;
+  }
+  h1 
+  {
+    font-size: 4rem;
+  }
+  .banner-content p 
+  {
+    font-size: 1.5rem;
+    max-width: 80%;
+  }
+  .angle-right img 
+  {
+    height: 4rem;
+  }
+  .angle-left img 
+  {
+    height: 4rem;
+  }
+  .angle-left
+  {
+    left: 1.5rem !important;
+  }
+  .angle-right
+  {
+    right: 1.5rem !important;
+  }
+  .header-menu 
+  {
+    justify-content: center;
+    gap: 2rem;
+  }
+  .section-service-wrapper 
+  {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 8.5rem;
+  }
+  .device-content 
+  {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .fun-fact {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+  .single-funfact-box 
+  {
+    margin-bottom: 5rem;
+  }
+  .single-funfact-box:last-child 
+  {
+    grid-column: span 2;
+  }
+  .footer-copyright 
+  {
+    justify-content: center;
+    gap: 2rem;
+  }
+  .footer-copyright-content ul 
+  {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer-copyright-content ul li
+  {
+    margin-bottom: 1rem;
+  }
+}
+
+@media all and (max-width:655px) 
+{
+  .project-items 
+  {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-title h3 
+  {
+    font-size: 2.8rem;
+  }
+  .section-title p 
+  {
+    font-size: 1.5rem;
+  }
+}
+@media all and (max-width:580px) 
+{
+  .recent-post-content 
+  {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2.5rem;
+  }
+  .single-recent-posts:last-child {
+    grid-column: span 1;
+    max-width: 100%;
+  }
+  .partner 
+  {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+  }
+  .partner-area 
+  {
+    padding: 5rem 0;
+  }
+}
+
+@media all and (max-width:480px) 
+{
+  .section-service-wrapper 
+  {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fun-fact 
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .partner 
+  {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+  .footer-top 
+  {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+  .dribble-widget a 
+  {
+    margin: auto;
+  }
+}
+
+@media all and (max-width:345px) 
+{
+  .header-top {
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+@media all and (max-width:330px) 
+{
+  .fun-fact 
+  {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-funfact-box:last-child 
+  {
+    grid-column: span 1;
+  }
+}
